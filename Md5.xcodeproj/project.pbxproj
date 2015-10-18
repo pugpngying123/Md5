@@ -18,6 +18,9 @@
 		C61268971BCCF11F00C6D9C8 /* Md5UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268961BCCF11F00C6D9C8 /* Md5UITests.m */; };
 		C61268A81BCCF30800C6D9C8 /* Md5.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268A71BCCF30800C6D9C8 /* Md5.m */; settings = {ASSET_TAGS = (); }; };
 		C61268AC1BCCF57C00C6D9C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61268AB1BCCF57C00C6D9C8 /* SystemConfiguration.framework */; };
+		C615668D1BD3949F005AF223 /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C615668C1BD3949F005AF223 /* ddViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C615668E1BD3949F005AF223 /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C615668C1BD3949F005AF223 /* ddViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C615668F1BD3949F005AF223 /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C615668C1BD3949F005AF223 /* ddViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,8 @@
 		C61268A61BCCF30800C6D9C8 /* Md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Md5.h; sourceTree = "<group>"; };
 		C61268A71BCCF30800C6D9C8 /* Md5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Md5.m; sourceTree = "<group>"; };
 		C61268AB1BCCF57C00C6D9C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C615668B1BD3949F005AF223 /* ddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ddViewController.h; sourceTree = "<group>"; };
+		C615668C1BD3949F005AF223 /* ddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,8 @@
 				C61268721BCCF11F00C6D9C8 /* AppDelegate.m */,
 				C61268741BCCF11F00C6D9C8 /* ViewController.h */,
 				C61268751BCCF11F00C6D9C8 /* ViewController.m */,
+				C615668B1BD3949F005AF223 /* ddViewController.h */,
+				C615668C1BD3949F005AF223 /* ddViewController.m */,
 				C61268A61BCCF30800C6D9C8 /* Md5.h */,
 				C61268A71BCCF30800C6D9C8 /* Md5.m */,
 				C61268771BCCF11F00C6D9C8 /* Main.storyboard */,
@@ -286,6 +293,7 @@
 				C61268761BCCF11F00C6D9C8 /* ViewController.m in Sources */,
 				C61268731BCCF11F00C6D9C8 /* AppDelegate.m in Sources */,
 				C612687C1BCCF11F00C6D9C8 /* Md5.xcdatamodeld in Sources */,
+				C615668D1BD3949F005AF223 /* ddViewController.m in Sources */,
 				C61268701BCCF11F00C6D9C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C615668E1BD3949F005AF223 /* ddViewController.m in Sources */,
 				C612688C1BCCF11F00C6D9C8 /* Md5Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C615668F1BD3949F005AF223 /* ddViewController.m in Sources */,
 				C61268971BCCF11F00C6D9C8 /* Md5UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

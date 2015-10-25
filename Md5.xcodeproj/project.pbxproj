@@ -21,6 +21,16 @@
 		C615668D1BD3949F005AF223 /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C615668C1BD3949F005AF223 /* ddViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C615668E1BD3949F005AF223 /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C615668C1BD3949F005AF223 /* ddViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C615668F1BD3949F005AF223 /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C615668C1BD3949F005AF223 /* ddViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C6A985BD1BDCB7B500D18052 /* Md5.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268A71BCCF30800C6D9C8 /* Md5.m */; settings = {ASSET_TAGS = (); }; };
+		C6A985BE1BDCB7B500D18052 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268751BCCF11F00C6D9C8 /* ViewController.m */; };
+		C6A985BF1BDCB7B500D18052 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268721BCCF11F00C6D9C8 /* AppDelegate.m */; };
+		C6A985C01BDCB7B500D18052 /* Md5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C612687A1BCCF11F00C6D9C8 /* Md5.xcdatamodeld */; };
+		C6A985C11BDCB7B500D18052 /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C615668C1BD3949F005AF223 /* ddViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C6A985C21BDCB7B500D18052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C612686F1BCCF11F00C6D9C8 /* main.m */; };
+		C6A985C41BDCB7B500D18052 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61268AB1BCCF57C00C6D9C8 /* SystemConfiguration.framework */; };
+		C6A985C61BDCB7B500D18052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C612687F1BCCF11F00C6D9C8 /* LaunchScreen.storyboard */; };
+		C6A985C71BDCB7B500D18052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C612687D1BCCF11F00C6D9C8 /* Assets.xcassets */; };
+		C6A985C81BDCB7B500D18052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61268771BCCF11F00C6D9C8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +73,8 @@
 		C61268AB1BCCF57C00C6D9C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C615668B1BD3949F005AF223 /* ddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ddViewController.h; sourceTree = "<group>"; };
 		C615668C1BD3949F005AF223 /* ddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ddViewController.m; sourceTree = "<group>"; };
+		C6A985CC1BDCB7B500D18052 /* Md5 onLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Md5 onLine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A985CD1BDCB7B500D18052 /* Md5 onLine.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Md5 onLine.plist"; path = "/Users/xinmob/Documents/Md5/Md5 onLine.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C6A985C31BDCB7B500D18052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A985C41BDCB7B500D18052 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -99,6 +119,7 @@
 				C612688A1BCCF11F00C6D9C8 /* Md5Tests */,
 				C61268951BCCF11F00C6D9C8 /* Md5UITests */,
 				C612686C1BCCF11F00C6D9C8 /* Products */,
+				C6A985CD1BDCB7B500D18052 /* Md5 onLine.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +129,7 @@
 				C612686B1BCCF11F00C6D9C8 /* Md5.app */,
 				C61268871BCCF11F00C6D9C8 /* Md5Tests.xctest */,
 				C61268921BCCF11F00C6D9C8 /* Md5UITests.xctest */,
+				C6A985CC1BDCB7B500D18052 /* Md5 onLine.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,6 +237,23 @@
 			productReference = C61268921BCCF11F00C6D9C8 /* Md5UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C6A985BB1BDCB7B500D18052 /* Md5 onLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6A985C91BDCB7B500D18052 /* Build configuration list for PBXNativeTarget "Md5 onLine" */;
+			buildPhases = (
+				C6A985BC1BDCB7B500D18052 /* Sources */,
+				C6A985C31BDCB7B500D18052 /* Frameworks */,
+				C6A985C51BDCB7B500D18052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Md5 onLine";
+			productName = Md5;
+			productReference = C6A985CC1BDCB7B500D18052 /* Md5 onLine.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -253,6 +292,7 @@
 				C612686A1BCCF11F00C6D9C8 /* Md5 */,
 				C61268861BCCF11F00C6D9C8 /* Md5Tests */,
 				C61268911BCCF11F00C6D9C8 /* Md5UITests */,
+				C6A985BB1BDCB7B500D18052 /* Md5 onLine */,
 			);
 		};
 /* End PBXProject section */
@@ -279,6 +319,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A985C51BDCB7B500D18052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A985C61BDCB7B500D18052 /* LaunchScreen.storyboard in Resources */,
+				C6A985C71BDCB7B500D18052 /* Assets.xcassets in Resources */,
+				C6A985C81BDCB7B500D18052 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +363,19 @@
 			files = (
 				C615668F1BD3949F005AF223 /* ddViewController.m in Sources */,
 				C61268971BCCF11F00C6D9C8 /* Md5UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A985BC1BDCB7B500D18052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A985BD1BDCB7B500D18052 /* Md5.m in Sources */,
+				C6A985BE1BDCB7B500D18052 /* ViewController.m in Sources */,
+				C6A985BF1BDCB7B500D18052 /* AppDelegate.m in Sources */,
+				C6A985C01BDCB7B500D18052 /* Md5.xcdatamodeld in Sources */,
+				C6A985C11BDCB7B500D18052 /* ddViewController.m in Sources */,
+				C6A985C21BDCB7B500D18052 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +580,41 @@
 			};
 			name = Release;
 		};
+		C6A985CA1BDCB7B500D18052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=2";
+				INFOPLIST_FILE = "Md5 onLine.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XinMob.Md5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7s arm64 armv7";
+			};
+			name = Debug;
+		};
+		C6A985CB1BDCB7B500D18052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Md5 onLine.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XinMob.Md5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7s arm64 armv7";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -552,6 +650,15 @@
 			buildConfigurations = (
 				C61268A21BCCF11F00C6D9C8 /* Debug */,
 				C61268A31BCCF11F00C6D9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6A985C91BDCB7B500D18052 /* Build configuration list for PBXNativeTarget "Md5 onLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6A985CA1BDCB7B500D18052 /* Debug */,
+				C6A985CB1BDCB7B500D18052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

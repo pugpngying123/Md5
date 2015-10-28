@@ -21,6 +21,10 @@
     NSLog(@"_%@",[Md5 md5:@"1381878604212345678ios"]);
     NSLog(@"bbb");
     NSLog(@"%d",DEBUG);
+    NSLog(@"bbb");
+    NSLog(@"%d",DEBUG);
+    NSLog(@"bbb");
+    NSLog(@"%d",DEBUG);
 
 
 }

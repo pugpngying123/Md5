@@ -22,8 +22,6 @@
 
     NSLog(@"222");
 
-    NSLog(@"bbb");
-    NSLog(@"%d",DEBUG);
 
 
 

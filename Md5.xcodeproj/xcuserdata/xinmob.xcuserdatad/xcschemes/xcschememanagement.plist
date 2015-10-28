@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Md5 onLine.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Md5.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>C61268911BCCF11F00C6D9C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6A985BB1BDCB7B500D18052</key>
 		<dict>
 			<key>primary</key>
 			<true/>

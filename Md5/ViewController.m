@@ -19,7 +19,7 @@
     
 
     NSLog(@"_%@",[Md5 md5:@"1381878604212345678ios"]);
-    NSLog(@"一代App开发");
+    NSLog(@"三代App开发");
     NSLog(@"%d",DEBUG);
     
 

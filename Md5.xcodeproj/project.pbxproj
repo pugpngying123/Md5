@@ -16,16 +16,12 @@
 		C61268811BCCF11F00C6D9C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C612687F1BCCF11F00C6D9C8 /* LaunchScreen.storyboard */; };
 		C612688C1BCCF11F00C6D9C8 /* Md5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C612688B1BCCF11F00C6D9C8 /* Md5Tests.m */; };
 		C61268971BCCF11F00C6D9C8 /* Md5UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268961BCCF11F00C6D9C8 /* Md5UITests.m */; };
-		C61268A81BCCF30800C6D9C8 /* Md5.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268A71BCCF30800C6D9C8 /* Md5.m */; settings = {ASSET_TAGS = (); }; };
+		C61268A81BCCF30800C6D9C8 /* Md5.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268A71BCCF30800C6D9C8 /* Md5.m */; };
 		C61268AC1BCCF57C00C6D9C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61268AB1BCCF57C00C6D9C8 /* SystemConfiguration.framework */; };
-		C615668D1BD3949F005AF223 /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C615668C1BD3949F005AF223 /* ddViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C615668E1BD3949F005AF223 /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C615668C1BD3949F005AF223 /* ddViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C615668F1BD3949F005AF223 /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C615668C1BD3949F005AF223 /* ddViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C6A985BD1BDCB7B500D18052 /* Md5.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268A71BCCF30800C6D9C8 /* Md5.m */; settings = {ASSET_TAGS = (); }; };
+		C6A985BD1BDCB7B500D18052 /* Md5.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268A71BCCF30800C6D9C8 /* Md5.m */; };
 		C6A985BE1BDCB7B500D18052 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268751BCCF11F00C6D9C8 /* ViewController.m */; };
 		C6A985BF1BDCB7B500D18052 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C61268721BCCF11F00C6D9C8 /* AppDelegate.m */; };
 		C6A985C01BDCB7B500D18052 /* Md5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C612687A1BCCF11F00C6D9C8 /* Md5.xcdatamodeld */; };
-		C6A985C11BDCB7B500D18052 /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C615668C1BD3949F005AF223 /* ddViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C6A985C21BDCB7B500D18052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C612686F1BCCF11F00C6D9C8 /* main.m */; };
 		C6A985C41BDCB7B500D18052 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61268AB1BCCF57C00C6D9C8 /* SystemConfiguration.framework */; };
 		C6A985C61BDCB7B500D18052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C612687F1BCCF11F00C6D9C8 /* LaunchScreen.storyboard */; };
@@ -71,8 +67,6 @@
 		C61268A61BCCF30800C6D9C8 /* Md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Md5.h; sourceTree = "<group>"; };
 		C61268A71BCCF30800C6D9C8 /* Md5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Md5.m; sourceTree = "<group>"; };
 		C61268AB1BCCF57C00C6D9C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C615668B1BD3949F005AF223 /* ddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ddViewController.h; sourceTree = "<group>"; };
-		C615668C1BD3949F005AF223 /* ddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ddViewController.m; sourceTree = "<group>"; };
 		C6A985CC1BDCB7B500D18052 /* Md5 onLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Md5 onLine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A985CD1BDCB7B500D18052 /* Md5 onLine.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Md5 onLine.plist"; path = "/Users/xinmob/Documents/Md5/Md5 onLine.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -141,8 +135,6 @@
 				C61268721BCCF11F00C6D9C8 /* AppDelegate.m */,
 				C61268741BCCF11F00C6D9C8 /* ViewController.h */,
 				C61268751BCCF11F00C6D9C8 /* ViewController.m */,
-				C615668B1BD3949F005AF223 /* ddViewController.h */,
-				C615668C1BD3949F005AF223 /* ddViewController.m */,
 				C61268A61BCCF30800C6D9C8 /* Md5.h */,
 				C61268A71BCCF30800C6D9C8 /* Md5.m */,
 				C61268771BCCF11F00C6D9C8 /* Main.storyboard */,
@@ -343,7 +335,6 @@
 				C61268761BCCF11F00C6D9C8 /* ViewController.m in Sources */,
 				C61268731BCCF11F00C6D9C8 /* AppDelegate.m in Sources */,
 				C612687C1BCCF11F00C6D9C8 /* Md5.xcdatamodeld in Sources */,
-				C615668D1BD3949F005AF223 /* ddViewController.m in Sources */,
 				C61268701BCCF11F00C6D9C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,7 +343,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C615668E1BD3949F005AF223 /* ddViewController.m in Sources */,
 				C612688C1BCCF11F00C6D9C8 /* Md5Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,7 +351,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C615668F1BD3949F005AF223 /* ddViewController.m in Sources */,
 				C61268971BCCF11F00C6D9C8 /* Md5UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,7 +363,6 @@
 				C6A985BE1BDCB7B500D18052 /* ViewController.m in Sources */,
 				C6A985BF1BDCB7B500D18052 /* AppDelegate.m in Sources */,
 				C6A985C01BDCB7B500D18052 /* Md5.xcdatamodeld in Sources */,
-				C6A985C11BDCB7B500D18052 /* ddViewController.m in Sources */,
 				C6A985C21BDCB7B500D18052 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

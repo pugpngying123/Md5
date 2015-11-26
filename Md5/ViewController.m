@@ -19,15 +19,8 @@
     
 
     NSLog(@"_%@",[Md5 md5:@"1381878604212345678ios"]);
+    NSLog(@"_111111");
 
-    NSLog(@"222");
-<<<<<<< HEAD
-    NSLog(@"test222");
-NSLog(@"yuyu iadgsgdai;b ");
-=======
-
-NSLog(@"222");NSLog(@"222");NSLog(@"222");
->>>>>>> parent of cd1bfae... 2
 
 
 }
